@@ -1,0 +1,45 @@
+.map {
+    width: 100%;
+    max-height: 100vh;
+}
+
+path[class^="sm_state"]:hover {
+    fill: #3B729F;
+}
+
+.selected {
+    fill: #3B729F;
+}
+
+.hover {
+    fill: rgba(0, 0, 255, 0.7);
+}
+
+.red {
+    fill: red;
+}
+
+.answer {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+.option-wrap {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 24px auto;
+    height: 27px;
+}
+
+.option {
+    width: 100%;
+    display: block;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
